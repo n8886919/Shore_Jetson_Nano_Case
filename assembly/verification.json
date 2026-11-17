@@ -1,0 +1,76 @@
+{
+  "source_fcstd_sha256": "958c75cda8235a8606d0e8c6ded55bea8f2996a24d02a64355517ed111d412b6",
+  "source_igs_sha256": "2ee11bf87d695fbe5243b8a3e16f2bd8d546154cd3d883df51d643ab31ec2322",
+  "source_unchanged": true,
+  "source_tip": "Fillet003",
+  "case_valid": true,
+  "case_solids": 1,
+  "case_volume_mm3": 95931.56454228067,
+  "plate_original_igs_solids": 0,
+  "plate_representation": "Largest planar IGS face at z=2 mm extruded down 2 mm; IGS source unchanged.",
+  "plate_valid": true,
+  "plate_solids": 1,
+  "plate_volume_mm3": 47324.58006858458,
+  "placement": {
+    "rotation_z_deg": 90,
+    "translation_mm": [
+      -86,
+      45,
+      -2.5
+    ]
+  },
+  "plate_z_range_mm": [
+    -2.5,
+    -0.5
+  ],
+  "slot_z_range_mm": [
+    -3,
+    0
+  ],
+  "nominal_clearance_each_side_mm": 0.5,
+  "nominal_handle_width_mm": 85,
+  "nominal_slot_width_mm": 86,
+  "case_plate_intersection_volume_mm3": 0.0,
+  "holes_xy_mm": [
+    [
+      113,
+      18.2
+    ],
+    [
+      113,
+      71.8
+    ]
+  ],
+  "hole_pitch_mm": 53.6,
+  "physical_fit_verified": false,
+  "display_panel_model_included": false,
+  "notes": [
+    "Display enclosure is the unchanged owner design; no measured display panel model was supplied.",
+    "Imported original Nano / hardware references are visual references, not physical fit acceptance."
+  ],
+  "hole_alignment_residual_mm": [
+    7.611968740053432e-08,
+    7.611972663426412e-08
+  ],
+  "source_document_modified": false,
+  "freecad_version": [
+    "26",
+    "3",
+    "0",
+    "20261018 (Git shallow)",
+    "Unknown",
+    "2026/10/18 05:49:18",
+    "(HEAD detached at 9fb16e7f9)",
+    "9fb16e7f981adb09f7d7f130ce085d68e9825358"
+  ],
+  "saved_file_verified": {
+    "case_valid": true,
+    "plate_valid": true,
+    "case_solids": 1,
+    "plate_solids": 1,
+    "case_volume_difference_mm3": 0.0,
+    "plate_placement": "Placement [Pos=(-86,45,-2.5), Yaw-Pitch-Roll=(90,0,0)]"
+  },
+  "source_document_modified_after": false,
+  "source_geometry_brep_identical_before_after": true
+}
