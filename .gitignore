@@ -1,0 +1,10 @@
+# FreeCAD automatic backups
+*.FCBak
+*.FCStd[0-9]*
+*.fcstd[0-9]*
+*.step
+*.STEP
+*.stp
+*.STP
+# Superseded original print export
+Nano_Case_v05_DRAFT.stl
