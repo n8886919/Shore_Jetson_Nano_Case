@@ -1,873 +1,330 @@
 {
-  "verified_at": "2026-11-18T03:24:13.223099+08:00",
+  "verified_at": "2026-11-18T10:45:23.593410+08:00",
   "source_file": "Nano_Case_v05_DRAFT.FCStd",
-  "source_fcstd_sha256": "3a89e72460afb9623b822d0beffe24de2eb0a4c33b0fa11cb10c9920f42d08d8",
-  "assembly_document": "original source document, Reference group; no separate FCStd",
+  "source_fcstd_sha256": "530e51a506dacfcc26885772f34ef071078c89a05733aa2faa34090cfd1aadae",
+  "previous_revision": "667ebc6",
+  "previous_source_sha256": "3a89e72460afb9623b822d0beffe24de2eb0a4c33b0fa11cb10c9920f42d08d8",
+  "assembly_document": "original Reference group, no separate assembly FCStd",
   "stl_exported": false,
-  "display": {
-    "variant": "70H-1024600-IPS, non-touch",
-    "owner_confirmed": true,
-    "outer_size_mm": [
-      164,
-      97
+  "animation_created_or_updated": false,
+  "official_parameter_table": {
+    "sheet": "Parameters",
+    "rows": [
+      73,
+      80
     ],
-    "body_thickness_mm": 2.6,
-    "cad_url": "https://files.waveshare.com/upload/7/73/70H-1024600-IPS-CAD.zip",
-    "source": "LCD from IPS printing-shell STEP; adapter PCBA from CT acrylic-shell STEP; vendor shells and touch glass excluded"
-  },
-  "adapter": {
-    "board_size_mm": [
-      50,
-      25.5
-    ],
-    "hole_pitch_mm": [
-      44.7,
-      20.2
-    ],
-    "vendor_hole_diameter_mm": 2.75,
-    "case_clearance_hole_diameter_mm": 3,
-    "case_support_width_mm": 52.7,
-    "dimension_source": "https://www.waveshare.com/w/upload/4/48/70H-1024600-FAQ.png",
-    "official_hole_centers_mm": [
-      [
-        64.34999975000001,
-        83.60000000000001,
-        11.799997340000012
-      ],
-      [
-        64.34999975000001,
-        83.60000000000001,
-        32.000002660000014
-      ],
-      [
-        19.65000024999999,
-        83.60000000000001,
-        11.799997340000012
-      ],
-      [
-        19.650000249999987,
-        83.60000000000001,
-        32.000002660000014
-      ]
-    ]
-  },
-  "base_plate": {
-    "source_file": "大底板.IGS",
-    "method": "extrude the largest planar top face by the original 2 mm thickness; original IGES is a surface collection",
-    "rotation_z_degrees": -90,
-    "translation_mm": [
-      199,
-      45,
-      -3
-    ],
-    "circular_end": "opposite the DC power connector",
-    "case_fastener_positions_xy_mm": [
-      [
-        113,
-        18.2
-      ],
-      [
-        113,
-        71.8
-      ]
-    ],
-    "holes": "case holes align with plate handle slots"
-  },
-  "saved_source_validation": {
-    "success": true,
-    "freecad_version": [
-      "26",
-      "3",
-      "0",
-      "20261018 (Git shallow)",
-      "Unknown",
-      "2026/10/18 05:49:18",
-      "(HEAD detached at 9fb16e7f9)",
-      "9fb16e7f981adb09f7d7f130ce085d68e9825358"
-    ],
-    "archive_valid": true,
-    "case_valid": true,
-    "case_solids": 1,
-    "case_volume_mm3": 95980.15473634154,
-    "unchanged_upstream_volume_mm3": 95184.43455793314,
-    "changed_sketches": [
-      "Sketch008",
-      "Sketch009",
-      "Sketch010",
-      "Sketch011"
-    ],
-    "unchanged_prefix_brep": [
-      "BaseSketch",
-      "BasePad",
-      "WallSketch",
-      "WallPad",
-      "RoofSketch",
-      "RoofPad",
-      "ServiceWindowSketch",
-      "ServiceWindow",
-      "MountHolesSketch",
-      "MountHoles",
-      "PortSupportSketch",
-      "PortSupportPad",
-      "SupportRootFillet",
-      "InsideFillet",
-      "WindowFillet",
-      "OutsideFillet",
-      "FanAccessSketch",
-      "FanAccessPocket",
-      "Sketch",
-      "Pad",
-      "Sketch001",
-      "Pad001",
-      "Sketch002",
-      "Pad002",
-      "Sketch003",
-      "Pad003",
-      "Sketch004",
-      "Pocket",
-      "Sketch005",
-      "Pocket001"
-    ],
-    "unchanged_original_reference_brep": [
-      "CarrierPCB",
-      "ModulePCB",
-      "PortsAndSockets",
-      "FanHeader",
-      "PWMCooler",
-      "PWMFanRotor",
-      "LowerStandoffs",
-      "UpperStandoffs",
-      "CaseScrews",
-      "TopShims"
-    ],
-    "body_feature_names": [
-      "BaseSketch",
-      "BasePad",
-      "WallSketch",
-      "WallPad",
-      "RoofSketch",
-      "RoofPad",
-      "ServiceWindowSketch",
-      "ServiceWindow",
-      "MountHolesSketch",
-      "MountHoles",
-      "PortSupportSketch",
-      "PortSupportPad",
-      "SupportRootFillet",
-      "InsideFillet",
-      "WindowFillet",
-      "OutsideFillet",
-      "FanAccessSketch",
-      "FanAccessPocket",
-      "Sketch",
-      "Pad",
-      "Sketch001",
-      "Pad001",
-      "Sketch002",
-      "Pad002",
-      "Sketch003",
-      "Pad003",
-      "Sketch004",
-      "Pocket",
-      "Sketch005",
-      "Pocket001",
-      "Sketch008",
-      "Pad004",
-      "Sketch009",
-      "Pocket002",
-      "Sketch010",
-      "Pocket003",
-      "Sketch011",
-      "Pocket004",
-      "Sketch012",
-      "Pocket005",
-      "Sketch013",
-      "Pocket006",
-      "Fillet",
-      "Fillet001",
-      "Fillet002",
-      "Fillet003"
-    ],
-    "adapter_hole_centers_mm": [
-      [
-        64.35000000000005,
-        83.00000000000003,
-        32.00000000000001
-      ],
-      [
-        19.65,
-        83.00000000000003,
-        32.00000000000001
-      ],
-      [
-        64.35000000000005,
-        82.99999999999997,
-        11.800000000000008
-      ],
-      [
-        19.65,
-        82.99999999999997,
-        11.800000000000006
-      ]
-    ],
-    "source_fcstd_sha256": "3a89e72460afb9623b822d0beffe24de2eb0a4c33b0fa11cb10c9920f42d08d8",
-    "reference_group": "裝配參考 — 不要匯出 STL",
-    "display_variant": "70H-1024600-IPS, non-touch, owner confirmed 2026-11-18",
-    "object_count": 289
-  },
-  "final_lower_nut_wall_validation": {
-    "lower_nut_wall_checks": [
-      {
-        "x": 19.65,
-        "ledge_at_y82_5_is_material": true,
-        "recess_at_y81_5_is_material": false
-      },
-      {
-        "x": 64.35,
-        "ledge_at_y82_5_is_material": true,
-        "recess_at_y81_5_is_material": false
-      }
-    ],
-    "nut_case_overlap_mm3": {
-      "AdapterNut1": 0.0,
-      "AdapterNut2": 0.0,
-      "AdapterNut3": 0.0,
-      "AdapterNut4": 0.0
+    "values_mm": {
+      "AdapterWidth": 50.0,
+      "AdapterHeight": 25.5,
+      "AdapterPitchX": 44.7,
+      "AdapterPitchY": 20.2,
+      "AdapterBoardHoleDia": 2.75,
+      "DisplayWidth": 164.0,
+      "DisplayHeight": 97.0,
+      "DisplayThickness": 2.6
     },
-    "upstream_volume_mm3": 95184.43455793314,
-    "case_volume_mm3": 95980.15473634154,
-    "case_valid": true,
-    "case_solids": 1,
-    "lower_nut_pocket_depth_mm": 1.0,
-    "lower_nut_remaining_wall_mm": 1.0,
-    "lower_nut_range_y_mm": [
-      80,
-      82
-    ],
-    "fastener_bounding_boxes": {
-      "AdapterScrew1": {
-        "solids": 1,
-        "bbox": [
-          17.650000000000006,
-          79.2,
-          9.8,
-          21.650000000000006,
-          86.15033712795895,
-          13.8
-        ]
-      },
-      "PlateScrew1": {
-        "solids": 1,
-        "bbox": [
-          110.5,
-          15.705014417563635,
-          -5.44559796285257,
-          115.5,
-          20.694985582436363,
-          2.0
-        ]
-      },
-      "PlateNut1": {
-        "solids": 1,
-        "bbox": [
-          109.82457351945706,
-          15.45,
-          -1.0,
-          116.17542648054294,
-          20.95,
-          1.4
-        ]
-      }
-    },
-    "source_fcstd_sha256": "3a89e72460afb9623b822d0beffe24de2eb0a4c33b0fa11cb10c9920f42d08d8"
-  },
-  "geometry_audit": {
-    "static": {
-      "BasePlate": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 1
-      },
-      "Display70H": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 1
-      },
-      "DisplayAdapter": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 8
-      },
-      "AdapterFasteners": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 12
-      },
-      "PlateFasteners": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 4
-      },
-      "CarrierPCB": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 1
-      },
-      "PortsAndSockets": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 274
-      },
-      "ModulePCB": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 1
-      },
-      "PWMCooler": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 1
-      },
-      "LowerStandoffs": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 8
-      },
-      "UpperStandoffs": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 4
-      },
-      "CaseScrews": {
-        "case_overlap_mm3": 0.0,
-        "valid": true,
-        "solids": 8
-      },
-      "plate_bottom_screws_mm3": 0.0,
-      "plate_display_mm3": 0.0,
-      "adapter_nano_fan_mm3": 0.0
-    },
-    "paths": {
-      "carrier_slide_from_port_side": {
-        "method": "discrete exact BRep intersections, not a continuous sweep guarantee",
-        "samples": [
-          {
-            "translation_mm": [
-              0.0,
-              -120.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              -80.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              -40.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          }
-        ]
-      },
-      "display_slide_from_open_rear": {
-        "method": "discrete exact BRep intersections, not a continuous sweep guarantee",
-        "samples": [
-          {
-            "translation_mm": [
-              0.0,
-              150.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              100.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              50.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          }
-        ]
-      },
-      "cooler_lower_through_top_opening": {
-        "method": "discrete exact BRep intersections, not a continuous sweep guarantee",
-        "samples": [
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              60.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              30.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              15.0
-            ],
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "translation_mm": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "case_overlap_mm3": 0.0
-          }
-        ]
-      },
-      "module_tilt_insertion": {
-        "method": "discrete exact BRep intersections, connector insertion and electrical seating not verified",
-        "hinge": [
-          48.02400098,
-          33.12599674,
-          14.17
-        ],
-        "samples": [
-          {
-            "angle_x_deg": 20,
-            "lift_mm": 40,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 20,
-            "lift_mm": 20,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 20,
-            "lift_mm": 0,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 15,
-            "lift_mm": 0,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 10,
-            "lift_mm": 0,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 5,
-            "lift_mm": 0,
-            "case_overlap_mm3": 0.0
-          },
-          {
-            "angle_x_deg": 0,
-            "lift_mm": 0,
-            "case_overlap_mm3": 0.0
-          }
-        ]
-      }
-    },
-    "driver_access": {
-      "nano_screws_3mm_shaft": [
-        {
-          "kind": "bottom",
-          "xy": [
-            4.05,
-            17.05
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "top",
-          "xy": [
-            4.05,
-            17.05
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "bottom",
-          "xy": [
-            90.1,
-            17.1
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "top",
-          "xy": [
-            90.1,
-            17.1
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "bottom",
-          "xy": [
-            4.1,
-            74.95
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "top",
-          "xy": [
-            4.1,
-            74.95
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "bottom",
-          "xy": [
-            89.95,
-            75.0
-          ],
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "kind": "top",
-          "xy": [
-            89.95,
-            75.0
-          ],
-          "case_overlap_mm3": 0.0
-        }
-      ],
-      "adapter_3mm_shaft": [
-        {
-          "name": "AdapterScrew1",
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "name": "AdapterScrew2",
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "name": "AdapterScrew3",
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "name": "AdapterScrew4",
-          "case_overlap_mm3": 0.0
-        }
-      ],
-      "plate_3mm_shaft": [
-        {
-          "name": "PlateScrew1",
-          "case_overlap_mm3": 0.0
-        },
-        {
-          "name": "PlateScrew2",
-          "case_overlap_mm3": 0.0
-        }
-      ]
-    },
-    "warnings": [
-      "The 2 mm plate, 1 mm modeled Nano bottom screw heads and 3 mm slot have zero nominal vertical allowance. No physical acceptance."
-    ],
-    "progress": "complete",
-    "plate_sweep_case_mm3": 0.0,
-    "plate_sweep_bottom_screws_mm3": 0.0,
-    "zero_vertical_plate_clearance_mm": 0.0
-  },
-  "audit_provenance": {
-    "initial_path_audit_lower_nut_recess_depth_mm": 2,
-    "final_lower_nut_recess_depth_mm": 1,
-    "final_wall_change": "restores material only in the two lower outer pocket layers; nuts repositioned inward by 1 mm",
-    "final_differential_validation": {
-      "final_wall_change_disjoint_from_static_models": true,
-      "restored_material_conservative_bbox_mm": [
-        15.65,
-        82,
-        8.8,
-        68.35,
-        83,
-        14.8
-      ],
-      "adapter_fastener_case_overlap_mm3": 0.0,
-      "adapter_driver_case_overlap_mm3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "all_prior_path_samples_disjoint_from_final_wall_change": true,
-      "success": true
+    "original_rows_1_to_69_preserved": true,
+    "computed_section_added": false,
+    "support_total_width_recorded_or_used_as_driver": false,
+    "sources": {
+      "adapter": "https://www.waveshare.com/w/upload/4/48/70H-1024600-FAQ.png",
+      "display": "https://www.waveshare.com/wiki/70H-1024600",
+      "ips_cad": "https://files.waveshare.com/upload/7/73/70H-1024600-IPS-CAD.zip"
     }
   },
-  "preserved_original_files": {
+  "sketch_annotation": {
+    "horizontal_pitch_mm": 44.7,
+    "horizontal_pitch_expression": "[('.Constraints.AdapterPitchX', 'Parameters.AdapterPitchX')]",
+    "vertical_pitch_mm": 20.2,
+    "vertical_pitch_expression": "[('.Constraints.AdapterPitchY', 'Parameters.AdapterPitchY')]",
+    "top_edge_margin_mm": 4,
+    "fully_constrained": {
+      "Sketch008": true,
+      "Sketch009": true,
+      "Sketch010": true,
+      "Sketch011": true,
+      "AdapterUpperHoleSketch": true
+    }
+  },
+  "height_and_geometry_validation": {
+    "progress": "complete",
+    "fan_outer_top_z_mm": 34.88,
+    "previous_support_top_z_mm": 35.9,
+    "measured_previous_support_above_fan_mm": 1.019999999999996,
+    "adapter_shift_z_mm": -1.1242102914555616,
+    "upper_hole_z_mm": 30.875789708544445,
+    "lower_hole_z_mm": 10.675789708544446,
+    "support_base_z_mm": 28.775789708544444,
+    "support_top_z_mm": 34.875789708544445,
+    "adapter_top_z_mm": 34.88,
+    "top_edge_margin_mm": 4,
+    "support_horizontal_pitch_constraint_index": 32,
+    "extra_upper_bore_sketch": "AdapterUpperHoleSketch",
+    "extra_upper_bore_pocket": "AdapterUpperHolePocket",
+    "extra_bore_depth_mm": 4,
+    "official_table_rows": [
+      73,
+      80
+    ],
+    "computed_table_removed": true,
+    "other_sketches_preserved": [
+      "BaseSketch",
+      "WallSketch",
+      "RoofSketch",
+      "ServiceWindowSketch",
+      "MountHolesSketch",
+      "PortSupportSketch",
+      "FanAccessSketch",
+      "Sketch",
+      "Sketch001",
+      "Sketch002",
+      "Sketch003",
+      "Sketch004",
+      "Sketch005",
+      "Sketch012",
+      "Sketch013"
+    ],
+    "fastener_case_overlap_mm3": {
+      "AdapterScrew1": 0.0,
+      "AdapterNut1": 0.0,
+      "AdapterShim1": 0.0,
+      "AdapterScrew2": 0.0,
+      "AdapterNut2": 0.0,
+      "AdapterShim2": 0.0,
+      "AdapterScrew3": 0.0,
+      "AdapterNut3": 0.0,
+      "AdapterShim3": 0.0,
+      "AdapterScrew4": 0.0,
+      "AdapterNut4": 0.0,
+      "AdapterShim4": 0.0
+    },
+    "case_changes": {
+      "added": {
+        "volume_mm3": 58.03418112891103,
+        "bbox_mm": [
+          16.65,
+          79.0,
+          11.23789485427216,
+          67.35000000000005,
+          83.00000000000003,
+          34.59807621135332
+        ]
+      },
+      "removed": {
+        "volume_mm3": 273.93771056774006,
+        "bbox_mm": [
+          15.649999999999945,
+          78.99999999999999,
+          8.077713497191128,
+          68.35000000000005,
+          83.00000000000003,
+          35.900000000000006
+        ]
+      }
+    },
+    "case_volume_mm3": 95764.25120690264,
+    "case_valid": true,
+    "case_solids": 1,
+    "upstream_volume_mm3": 95184.43455793314,
+    "plate_placement": {
+      "position_mm": [
+        -86.0,
+        45.0,
+        -3.0
+      ],
+      "rotation_degrees": 90.0,
+      "circular_end": "near power connector",
+      "insertion_position_left_unchanged": true
+    },
+    "source_fcstd_sha256": "530e51a506dacfcc26885772f34ef071078c89a05733aa2faa34090cfd1aadae",
+    "success": true
+  },
+  "saved_file_force_recompute_validation": {
+    "fully_constrained": {
+      "Sketch008": true,
+      "Sketch009": true,
+      "Sketch010": true,
+      "Sketch011": true,
+      "AdapterUpperHoleSketch": true
+    },
+    "official_parameters_mm": {
+      "AdapterWidth": 50.0,
+      "AdapterHeight": 25.5,
+      "AdapterPitchX": 44.7,
+      "AdapterPitchY": 20.2,
+      "AdapterBoardHoleDia": 2.75,
+      "DisplayWidth": 164.0,
+      "DisplayHeight": 97.0,
+      "DisplayThickness": 2.6
+    },
+    "original_sheet_rows_preserved": true,
+    "redundant_width_driver_or_sheet_record": false,
+    "hole_centers_mm": {
+      "Sketch008": [
+        [
+          64.35000000000001,
+          83.00000000000001,
+          30.875789708544445
+        ],
+        [
+          19.650000000000002,
+          83.00000000000001,
+          30.875789708544445
+        ]
+      ],
+      "Sketch009": [
+        [
+          64.35000000000001,
+          82.99999999999997,
+          10.675789708544452
+        ],
+        [
+          19.650000000000002,
+          82.99999999999997,
+          10.67578970854445
+        ]
+      ]
+    },
+    "direct_external_references": {
+      "Sketch009": [
+        [
+          "Sketch008",
+          [
+            "Edge7",
+            "Edge8"
+          ]
+        ]
+      ],
+      "Sketch010": [
+        [
+          "Sketch009",
+          [
+            "Edge1",
+            "Edge2"
+          ]
+        ]
+      ],
+      "Sketch011": [
+        [
+          "Sketch008",
+          [
+            "Edge8",
+            "Edge7"
+          ]
+        ]
+      ],
+      "AdapterUpperHoleSketch": [
+        [
+          "Sketch008",
+          [
+            "Edge7",
+            "Edge8"
+          ]
+        ]
+      ]
+    },
+    "fan_top_mm": 34.88,
+    "adapter_top_mm": 34.88000000002315,
+    "height_difference_mm": 2.3149482331064064e-11,
+    "top_edge_margin_mm": 4.0,
+    "lower_nut_wall_checks": [
+      {
+        "x_mm": 19.65,
+        "remaining_1mm_wall": true,
+        "recess_clear": true
+      },
+      {
+        "x_mm": 64.35,
+        "remaining_1mm_wall": true,
+        "recess_clear": true
+      }
+    ],
+    "case_valid": true,
+    "case_solids": 1,
+    "case_volume_mm3": 95764.25120690267,
+    "archive_valid": true,
+    "invalid_objects": [],
+    "body_tip": "AdapterUpperHolePocket",
+    "object_count": 291,
+    "source_fcstd_sha256": "530e51a506dacfcc26885772f34ef071078c89a05733aa2faa34090cfd1aadae",
+    "horizontal_pitch_expression": "[('.Constraints.AdapterPitchX', 'Parameters.AdapterPitchX')]",
+    "vertical_pitch_expression": "[('.Constraints.AdapterPitchY', 'Parameters.AdapterPitchY')]",
+    "plate_position_mm": [
+      -86.0,
+      45.0,
+      -3.0
+    ],
+    "success": true
+  },
+  "plate": {
+    "rotation_z_degrees": 90,
+    "position_mm": [
+      -86.0,
+      45.0,
+      -3.0
+    ],
+    "circular_end": "near DC power connector",
+    "position_control": "BasePlate.Placement.Base.x (GUI: Data > Placement > Position > x)",
+    "insertion_position_changed_after_user_requested_parameter_only": false,
+    "position_example": "-86 mm to -76 mm moves 10 mm further inward",
+    "through_slot_has_end_stop": false,
+    "end_hole_centers_mm": [
+      [
+        112.99999992961546,
+        18.200000028986636,
+        -3.0
+      ],
+      [
+        112.99999992961546,
+        71.79999997101328,
+        -3.0
+      ]
+    ],
+    "alignment_residual_mm": [
+      7.611970324645762e-08,
+      7.611973436285536e-08
+    ],
+    "static_overlap_mm3": {
+      "Enclosure": 0.0,
+      "CaseScrews": 0.0,
+      "Display70H": 0.0
+    },
+    "static_check_provenance": "Fresh direction-correction check before lowering. Later enclosure changes are confined to Z >= 8.0777 mm, spatially separated from plate at Z -3..-1 mm, so these intersections remain unchanged.",
+    "nominal_vertical_allowance_mm": 0
+  },
+  "preserved_files": {
     "大底板.DWG": {
       "sha256": "7fd9f94c13243617141d2e692470e64ec3fb577aeb1e3c94c8c780a1a6207638",
-      "byte_identical_to_second_commit": true
+      "unchanged_from": "667ebc6"
     },
     "大底板.IGS": {
       "sha256": "2ee11bf87d695fbe5243b8a3e16f2bd8d546154cd3d883df51d643ab31ec2322",
-      "byte_identical_to_second_commit": true
+      "unchanged_from": "667ebc6"
     },
     "nano_case_with_screen.stl": {
       "sha256": "0df6924c3dbfc77d555e4d363fcd758c33a93dba141bbd1f1799440f3f623fbf",
-      "byte_identical_to_second_commit": true
+      "unchanged_from": "667ebc6"
+    },
+    "assembly/assembly_sequence.mp4": {
+      "sha256": "e1aad34a0ad4b7515b68b72d9611cbbc0a641425f798e1343c7b9978bf54a95b",
+      "unchanged_from": "667ebc6"
     }
   },
-  "original_second_commit_fcstd_sha256": "958c75cda8235a8606d0e8c6ded55bea8f2996a24d02a64355517ed111d412b6",
-  "nominal_fasteners": {
-    "adapter": {
-      "screws": "4 x M2.5 x 6",
-      "nuts": "4 x M2.5, AF 5 mm, thickness 2 mm",
-      "shims": "4 x 0.6 mm, actual insulation and fit unverified"
-    },
-    "nano": {
-      "bottom_screws": "4 x M2.5 x 4, original geometry",
-      "top_screws": "4 x M2.5 x 7, original geometry"
-    },
-    "plate": {
-      "screws": "2 x M3 x 6",
-      "nuts": "2 x M3, AF 5.5 mm, thickness 2.4 mm"
-    },
-    "modeled_screw_count": 14,
-    "modeled_nut_count": 6,
-    "physical_specs_verified": false
-  },
-  "animation": {
+  "historical_animation": {
     "file": "assembly/assembly_sequence.mp4",
-    "sha256": "e1aad34a0ad4b7515b68b72d9611cbbc0a641425f798e1343c7b9978bf54a95b",
-    "probe": {
-      "programs": [],
-      "streams": [
-        {
-          "codec_name": "h264",
-          "width": 1280,
-          "height": 1020,
-          "r_frame_rate": "24/1",
-          "nb_frames": "1079"
-        }
-      ],
-      "format": {
-        "duration": "44.959000",
-        "size": "1373803"
-      }
-    },
-    "rendered_source_frames": 360,
-    "playback_source_fps": 8,
-    "sequence": [
-      "adapter board and 4 M2.5 fasteners",
-      "Jetson Nano carrier, module, cooler and 8 screws",
-      "base plate inserted from opposite side and 2 M3 fasteners",
-      "IPS display inserted last"
-    ],
-    "phase_captions": [
-      {
-        "start": 0,
-        "end": 24,
-        "key": [
-          "組裝順序與工具空間檢查",
-          "轉接板 → Jetson Nano → 大底板 → 顯示器",
-          ""
-        ]
-      },
-      {
-        "start": 24,
-        "end": 48,
-        "key": [
-          "1a 先放入轉接板螺母",
-          "4 顆 M2.5 螺母；下排部分露出以保留承壓壁",
-          ""
-        ]
-      },
-      {
-        "start": 48,
-        "end": 72,
-        "key": [
-          "1b 裝入轉接板與墊片",
-          "官方 PCBA；孔距 44.7 × 20.2 mm；名義 0.6 mm 墊片",
-          ""
-        ]
-      },
-      {
-        "start": 72,
-        "end": 96,
-        "key": [
-          "1c 鎖轉接板螺絲",
-          "4 顆名義 M2.5×6；實際長度與墊片需核對",
-          ""
-        ]
-      },
-      {
-        "start": 96,
-        "end": 132,
-        "key": [
-          "2a 裝入 Nano 載板與銅柱",
-          "由接頭側滑入；上、下銅柱與載板一起檢查",
-          ""
-        ]
-      },
-      {
-        "start": 132,
-        "end": 156,
-        "key": [
-          "2b 由頂部斜插 Nano 模組",
-          "先以 20° 進入，再放平；插槽電氣就位未驗證",
-          ""
-        ]
-      },
-      {
-        "start": 156,
-        "end": 180,
-        "key": [
-          "2b 將模組放平",
-          "必須核對實際 SODIMM 接合與扣具空間",
-          ""
-        ]
-      },
-      {
-        "start": 180,
-        "end": 204,
-        "key": [
-          "2c 裝入散熱器與風扇",
-          "散熱器固定件與線材依實物，動畫未驗證其鎖附",
-          ""
-        ]
-      },
-      {
-        "start": 204,
-        "end": 228,
-        "key": [
-          "2d 鎖 Nano 上、下螺絲",
-          "原有下方 M2.5×4、上方 M2.5×7，各 4 顆；底板前先鎖好",
-          ""
-        ]
-      },
-      {
-        "start": 228,
-        "end": 264,
-        "key": [
-          "3a 反向插入大底板",
-          "圓形端位於 DC 電源孔的另一側；板貼近插槽下緣",
-          "注意：2 mm 板＋1 mm 螺絲頭＝3 mm 槽，名義餘量 0 mm。"
-        ]
-      },
-      {
-        "start": 264,
-        "end": 288,
-        "key": [
-          "3b 鎖大底板螺絲與螺母",
-          "2 顆名義 M3×6＋M3 螺母；顯示器裝入前完成",
-          "底板仍須確認實際螺絲頭與列印公差。"
-        ]
-      },
-      {
-        "start": 288,
-        "end": 324,
-        "key": [
-          "4 最後由開口端插入顯示器",
-          "先接好 FPC 並避開底板；線材彎曲半徑未驗證",
-          ""
-        ]
-      },
-      {
-        "start": 324,
-        "end": 360,
-        "key": [
-          "完成位置參考",
-          "本動畫為 CAD 裝配檢查；螺絲規格與實物裝配仍需核對",
-          "底板垂直餘量 0 mm；不能據此宣告可順利組裝。"
-        ]
-      }
-    ]
+    "revision": "667ebc6",
+    "current": false,
+    "reason": "Old plate direction and adapter height; preserved unchanged, no new animation requested."
   },
-  "unresolved_findings": [
-    "3 mm slot minus 2 mm plate minus 1 mm modeled Nano bottom screw head leaves zero nominal vertical allowance. Centered plate interfered; final plate rests at slot bottom. Physical slide-in fit not accepted.",
-    "All path results are discrete BRep samples except the conservative plate envelope; no continuous path guarantee for the other parts.",
-    "Driver checks cover nominal 3 mm shaft only, excluding bit holder, handle and hand.",
-    "FPC/HDMI/USB cables, bend radius, connector seating and plug clearance were not modeled or verified.",
-    "Display entrance retention and heatsink mounting hardware were not verified.",
-    "All fastener dimensions and the 0.6 mm shim require comparison with actual hardware.",
-    "Existing nano_case_with_screen.stl was preserved byte-for-byte and is stale relative to the revised FCStd.",
-    "No print, physical assembly or device acceptance was performed."
+  "limitations": [
+    "Bottom plate nominal vertical allowance remains zero: 3 mm slot minus 2 mm plate and 1 mm modeled Nano bottom screw heads. Physical slide-in fit is not accepted.",
+    "No full insertion-path revalidation for the corrected plate direction and lowered adapter.",
+    "Cables, connector engagement, driver handles, display retention and actual fastener specifications remain unverified.",
+    "No STL export, printing or physical assembly acceptance. Existing STL is stale relative to revised FCStd."
   ],
-  "driving_constraint_changes": [
-    {
-      "sketch": "Sketch008",
-      "python_constraint_index": 6,
-      "value_before_mm": 50.0,
-      "value_after_mm": 52.7
-    },
-    {
-      "sketch": "Sketch008",
-      "python_constraint_index": 28,
-      "value_before_mm": 60.0,
-      "value_after_mm": 57.65
-    },
-    {
-      "sketch": "Sketch008",
-      "python_constraint_index": 29,
-      "value_before_mm": 5.0,
-      "value_after_mm": 4.0
-    },
-    {
-      "sketch": "Sketch008",
-      "python_constraint_index": 30,
-      "value_before_mm": 2.0,
-      "value_after_mm": 2.1
-    },
-    {
-      "sketch": "Sketch008",
-      "python_constraint_index": 31,
-      "value_before_mm": 4.0,
-      "value_after_mm": 3.9
-    },
-    {
-      "sketch": "Sketch009",
-      "python_constraint_index": 8,
-      "value_before_mm": 20.0,
-      "value_after_mm": 20.2
-    }
-  ],
-  "other_feature_input_changes": [
-    {
-      "feature": "Pocket003",
-      "property": "Length",
-      "before_mm": 0.5,
-      "after_mm": 1.0
-    }
-  ]
+  "adapter_solid_clearance_validation": {
+    "adapter_case_overlap_mm3": 0.0,
+    "adapter_fan_y_bbox_separation_mm": 5.573999888552024,
+    "success": true
+  }
 }
