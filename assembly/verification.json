@@ -1,77 +1,152 @@
 {
-  "verified_at": "2026-11-18T11:51:47.329566+08:00",
+  "verified_at": "2026-11-18T15:38:43.482543+08:00",
   "source_file": "Nano_Case_v05_DRAFT.FCStd",
-  "source_fcstd_sha256": "f9049d615c5e36fe34126c38d040673825a80e78a2992c43f855bdd422080282",
-  "previous_revision": "98c9b90a5c176d94a39e6f3e0cc62a70fb6ea306",
-  "previous_source_sha256": "767764fda1fdf5d8c8524f5cbd8976c8c0537dd2ed2ee148e818b9bcf1e00203",
+  "source_fcstd_sha256": "e278736467a4bf4baa7b2373814f2324a7128c24c5db7d0ce4634c66dce04fa4",
+  "previous_revision": "fb23d0ab01b31a85543b13d572c0a03696c63225",
+  "previous_committed_source_sha256": "f9049d615c5e36fe34126c38d040673825a80e78a2992c43f855bdd422080282",
   "assembly_document": "original Reference group, no separate assembly FCStd",
   "stl_exported": false,
   "animation_created_or_updated": false,
-  "opening": {
-    "original_constraints_mm": {
-      "left": 2,
-      "bottom": 2,
-      "right": 5.5,
-      "height": 90
+  "gimbal_sources": [
+    {
+      "id": "1Fc9YRn5uDv3fFUXnhPleGQsaXiXXVloB",
+      "name": "full-gimbal.step",
+      "original_name": "大圆形云台.STEP",
+      "size": 4599718,
+      "drive_url": "https://drive.google.com/file/d/1Fc9YRn5uDv3fFUXnhPleGQsaXiXXVloB/view",
+      "sha256": "efbf3786d774cc4e62469af50e0763cc10212da29115a1ea53ba757de275fa37"
     },
-    "new_constraints_mm": {
-      "left": 3.5,
-      "bottom": 3.5,
-      "right": 7,
-      "height": 89
-    },
-    "opening_extents_xy_mm": [
-      -34.5,
-      5.5,
-      120,
-      94.5
-    ],
-    "opening_corner_radius_mm": 2,
-    "old_solid_fillet_removed_edges": [
-      "Edge215",
-      "Edge216",
-      "Edge217",
-      "Edge218"
-    ],
-    "radius_driving_constraint": "Sketch004.Constraints.OpeningCornerRadius",
-    "active_area_corner_masking_accepted_by_user": true
-  },
-  "opening_preserved_from_revision": "98c9b90",
-  "display_retention": {
-    "ear_side": "display back (+Z)",
-    "ear_width_mm": 12,
-    "ear_semicircle_radius_mm": 6,
-    "ear_extension_from_case_mm": 8,
-    "ear_thickness_mm": 3,
-    "ear_z_range_mm": [
-      -6,
-      -3
-    ],
-    "ear_hole_diameter_mm": 3.4,
-    "hole_axes_xy_mm": [
+    {
+      "id": "1imGA_0MYtC8OWM3GRcS__X3Dn8QTIdlP",
+      "name": "one-axis.step",
+      "original_name": "一维大圆装配体通用三维.STEP",
+      "size": 3587184,
+      "drive_url": "https://drive.google.com/file/d/1imGA_0MYtC8OWM3GRcS__X3Dn8QTIdlP/view",
+      "sha256": "cd79021ccf13d9d7b8a4063226b0a7c2c83ba1462347ed55008e1d27573fbe38"
+    }
+  ],
+  "gimbal_mount": {
+    "source_parts": 68,
+    "source_solids": 68,
+    "source_url": "https://drive.google.com/file/d/1Fc9YRn5uDv3fFUXnhPleGQsaXiXXVloB/view",
+    "source_sha256": "efbf3786d774cc4e62469af50e0763cc10212da29115a1ea53ba757de275fa37",
+    "placement_expression": [
       [
-        -34,
-        104
-      ],
-      [
-        123,
-        104
+        "Placement",
+        ".MountPlate.Placement * MountOffset"
       ]
     ],
-    "screw_insertion_direction": "-Z from the display back",
-    "screw_seat_z_mm": -3,
-    "screw_tip_z_mm": -11,
-    "screw_nominal_length_mm": 8,
-    "nut_z_range_mm": [
-      -8.4,
-      -6
+    "mount_offset_matrix": [
+      0.005680798787115138,
+      0.9999838641323873,
+      0.0,
+      49.24298014296455,
+      -0.9999838641323873,
+      0.005680798787115138,
+      -0.0,
+      -32.28654644806739,
+      -0.0,
+      0.0,
+      1.0,
+      -325.9446946676487,
+      0.0,
+      0.0,
+      0.0,
+      1.0
     ],
-    "nut_adjustment_z_mm": 0.6,
-    "nut_stop_location": "inside original LCD insertion slot",
-    "nut_to_lcd_gap_mm": 1.75
+    "mount_transform_matrix": [
+      0.999983864132387,
+      -0.005680798787115072,
+      0.0,
+      -53.7134535519326,
+      0.005680798787115072,
+      0.999983864132387,
+      0.0,
+      94.24298014296454,
+      0.0,
+      0.0,
+      1.0,
+      -328.9446946676487,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mount_hole_centers_world_mm": [
+      [
+        -50.99821432004549,
+        9.998214319427646,
+        -3.0
+      ],
+      [
+        -121.00178566713686,
+        80.00178568057235,
+        -3.0
+      ],
+      [
+        -50.9982143200455,
+        80.00178568057235,
+        -3.0
+      ],
+      [
+        -121.00178566713686,
+        9.998214319427646,
+        -3.0
+      ]
+    ],
+    "stand_off_top_centers_world_mm": [
+      [
+        -50.9999999935911,
+        9.999999999999957,
+        -2.999999999999943
+      ],
+      [
+        -120.9999999935911,
+        9.999999999999972,
+        -3.0
+      ],
+      [
+        -120.9999999935911,
+        80.00000000000011,
+        -3.000000000000057
+      ],
+      [
+        -50.999999993591416,
+        79.99999999999994,
+        -3.0
+      ]
+    ],
+    "mount_center_residuals_mm": [
+      0.002525328714807039,
+      0.0025253287149175734,
+      0.0025253287148572817,
+      0.0025253287150934236
+    ],
+    "mount_pitch_mm": 70.0,
+    "plate_hole_diameter_nominal_mm": 4.0,
+    "stand_off_top_z_mm": -3.0
+  },
+  "mount_screws": {
+    "count": 4,
+    "nominal_size": "M4x10",
+    "source_url": "https://drive.google.com/file/d/1imGA_0MYtC8OWM3GRcS__X3Dn8QTIdlP/view",
+    "source_object": "Part__Feature050",
+    "plate_thickness_mm": 2,
+    "thread_in_stand_off_nominal_mm": 8
   },
   "preservation": {
-    "other_sketches_unchanged": {
+    "baseline": "active FreeCAD document at start of task, including pre-existing unsaved Sketch014/Pocket007",
+    "committed_enclosure_volume_before_task_mm3": 97050.03112604679,
+    "active_enclosure_volume_before_task_mm3": 97005.8357024999,
+    "active_enclosure_volume_after_task_mm3": 97005.8357024999,
+    "preexisting_live_features_preserved": [
+      "Sketch014",
+      "Pocket007"
+    ],
+    "enclosure_tip_unchanged": "Pocket007",
+    "existing_enclosure_shape_identical_in_live_document": true,
+    "existing_enclosure_symmetric_difference_mm3": 0,
+    "all_existing_sketches_preserved": {
       "BaseSketch": true,
       "WallSketch": true,
       "RoofSketch": true,
@@ -91,440 +166,209 @@
       "Sketch011": true,
       "Sketch012": true,
       "Sketch013": true,
-      "AdapterUpperHoleSketch": true
-    },
-    "existing_reference_parts_unchanged_except_four_display_fasteners": true,
-    "existing_reference_part_count": 204,
-    "upstream_AdapterUpperHolePocket_symmetric_difference_mm3": 0.0,
-    "hole_geometry_and_constraints_preserved": true,
-    "entire_parameter_table_preserved": true
-  },
-  "geometry_validation": {
-    "case_valid": true,
-    "case_solids": 1,
-    "case_volume_mm3": 97050.03112604679,
-    "body_tip": "DisplayEarHolePocket",
-    "invalid_objects": [],
-    "fully_constrained": {
-      "Sketch004": true,
+      "AdapterUpperHoleSketch": true,
       "DisplayEarSketch": true,
       "DisplayEarHoleSketch": true,
+      "Sketch014": true
+    },
+    "all_existing_reference_parts_preserved": true,
+    "existing_reference_part_count": 208,
+    "entire_parameter_table_preserved": true,
+    "base_plate_position_unchanged_mm": [
+      -86,
+      45,
+      -3
+    ]
+  },
+  "geometry_validation": {
+    "enclosure_valid": true,
+    "enclosure_solids": 1,
+    "enclosure_volume_mm3": 97005.8357024999,
+    "enclosure_tip": "Pocket007",
+    "invalid_objects": [],
+    "gimbal_solids_including_mount_screws": 72,
+    "gimbal_bbox_mm": [
+      -145.99999999359113,
+      -15.0000000000001,
+      -133.09805764203475,
+      -25.99999999359109,
+      105.0,
+      2.0568335838390417
+    ],
+    "source_gimbal_overlap_mm3": {
+      "Enclosure": 0.0,
+      "BasePlate": 0.0,
+      "Display70H": 0.0,
+      "DisplayAdapter": 0.0,
+      "CarrierPCB": 0.0,
+      "PortsAndSockets": 0.0,
+      "PWMCooler": 0.0,
+      "CaseScrews": 0.0,
+      "LowerStandoffs": 0.0,
+      "UpperStandoffs": 0.0
+    },
+    "mount_screw_overlap_mm3": {
+      "GimbalMountScrew1": {
+        "Enclosure": 0.0,
+        "BasePlate": 0.0,
+        "Display70H": 0.0,
+        "DisplayAdapter": 0.0,
+        "CarrierPCB": 0.0,
+        "PortsAndSockets": 0.0,
+        "PWMCooler": 0.0,
+        "CaseScrews": 0.0,
+        "LowerStandoffs": 0.0,
+        "UpperStandoffs": 0.0
+      },
+      "GimbalMountScrew2": {
+        "Enclosure": 0.0,
+        "BasePlate": 0.0,
+        "Display70H": 0.0,
+        "DisplayAdapter": 0.0,
+        "CarrierPCB": 0.0,
+        "PortsAndSockets": 0.0,
+        "PWMCooler": 0.0,
+        "CaseScrews": 0.0,
+        "LowerStandoffs": 0.0,
+        "UpperStandoffs": 0.0
+      },
+      "GimbalMountScrew3": {
+        "Enclosure": 0.0,
+        "BasePlate": 0.0,
+        "Display70H": 0.0,
+        "DisplayAdapter": 0.0,
+        "CarrierPCB": 0.0,
+        "PortsAndSockets": 0.0,
+        "PWMCooler": 0.0,
+        "CaseScrews": 0.0,
+        "LowerStandoffs": 0.0,
+        "UpperStandoffs": 0.0
+      },
+      "GimbalMountScrew4": {
+        "Enclosure": 0.0,
+        "BasePlate": 0.0,
+        "Display70H": 0.0,
+        "DisplayAdapter": 0.0,
+        "CarrierPCB": 0.0,
+        "PortsAndSockets": 0.0,
+        "PWMCooler": 0.0,
+        "CaseScrews": 0.0,
+        "LowerStandoffs": 0.0,
+        "UpperStandoffs": 0.0
+      }
+    },
+    "mount_screw_plate_overlap_total_mm3": 0.0,
+    "nominal_M4_hole_diametrical_clearance_mm": 0.0,
+    "mount_fasteners_minor_mesh_or_nominal_fit_overlap_requires_physical_validation": false,
+    "all_sketches_fully_constrained": {
+      "BaseSketch": true,
+      "WallSketch": true,
+      "RoofSketch": true,
+      "ServiceWindowSketch": true,
+      "MountHolesSketch": true,
+      "PortSupportSketch": true,
+      "FanAccessSketch": true,
+      "Sketch": true,
+      "Sketch001": true,
+      "Sketch002": true,
+      "Sketch003": true,
+      "Sketch004": true,
+      "Sketch005": true,
       "Sketch008": true,
       "Sketch009": true,
       "Sketch010": true,
       "Sketch011": true,
-      "AdapterUpperHoleSketch": true
+      "Sketch012": true,
+      "Sketch013": true,
+      "AdapterUpperHoleSketch": true,
+      "DisplayEarSketch": true,
+      "DisplayEarHoleSketch": true,
+      "Sketch014": true
     },
-    "display_case_overlap_mm3": 0.0,
-    "new_fastener_case_overlap_mm3": {
-      "DisplayStopScrew1": 0.0,
-      "DisplayStopNut1": 0.0,
-      "DisplayStopScrew2": 0.0,
-      "DisplayStopNut2": 0.0
-    },
-    "new_fastener_display_overlap_mm3": {
-      "DisplayStopScrew1": 0.0,
-      "DisplayStopNut1": 0.0,
-      "DisplayStopScrew2": 0.0,
-      "DisplayStopNut2": 0.0
-    },
-    "lcd_body_continuous_insertion_sweep": {
-      "direction": "+Y removal / -Y insertion",
-      "travel_mm": 110,
-      "case_overlap_mm3": 0.0,
-      "screws_and_nuts_removed": true,
-      "fpc_flexibility_validated": false
-    },
-    "stop_validation": {
-      "DisplayStopNut1": {
-        "seated_lcd_overlap_mm3": 0.0,
-        "minimum_lcd_gap_mm": 1.75,
-        "lcd_moved_2mm_outward_overlap_mm3": 1.6598820239201797
-      },
-      "DisplayStopNut2": {
-        "seated_lcd_overlap_mm3": 0.0,
-        "minimum_lcd_gap_mm": 1.75,
-        "lcd_moved_2mm_outward_overlap_mm3": 1.659882023920178
-      }
-    },
-    "opening_radii_mm": [
-      2.0,
-      2.0,
-      2.0,
-      2.0
+    "mount_center_residuals_mm": [
+      0.0025253287148120636,
+      0.002525328714947719,
+      0.002525328714877379,
+      0.0025253287150883994
     ],
-    "opening_constraints": [
-      {
-        "index": 4,
-        "type": "DistanceY",
-        "value_mm": 89.0,
-        "name": "OpeningHeight"
-      },
-      {
-        "index": 6,
-        "type": "Distance",
-        "value_mm": 3.5,
-        "name": ""
-      },
-      {
-        "index": 8,
-        "type": "Distance",
-        "value_mm": 3.5,
-        "name": ""
-      },
-      {
-        "index": 12,
-        "type": "Radius",
-        "value_mm": 2.0,
-        "name": "OpeningCornerRadius"
-      },
-      {
-        "index": 27,
-        "type": "Distance",
-        "value_mm": 7.0,
-        "name": "RightMargin"
-      }
+    "plate_bottom_z_mm": -3.0,
+    "stand_off_top_z_mm": [
+      -3.000000000000057,
+      -3.0000000000001137,
+      -3.0000000000001705,
+      -3.0000000000001137
     ],
-    "remaining_display_solid_fillet_edges": [
-      "Edge9",
-      "Edge65",
-      "Edge77",
-      "Edge11",
-      "Edge67",
-      "Edge76",
-      "Edge10",
-      "Edge64",
-      "Edge56"
-    ],
-    "active_area_corner_mask_mm2": 0.7074516611073542,
-    "active_area_dimensions_mm": [
-      154.21,
-      85.92
-    ],
-    "active_area_corner_mask_accepted_by_user": true,
-    "adapter_hole_centers_mm": {
-      "Sketch008": [
-        [
-          64.35000000000001,
-          83.00000000000001,
-          30.875789708544445
-        ],
-        [
-          19.650000000000006,
-          83.00000000000001,
-          30.875789708544445
-        ]
-      ],
-      "Sketch009": [
-        [
-          64.35000000000001,
-          82.99999999999997,
-          10.675789708544446
-        ],
-        [
-          19.650000000000002,
-          82.99999999999997,
-          10.67578970854445
-        ]
+    "placement_expression": [
+      [
+        "Placement",
+        ".MountPlate.Placement * MountOffset"
       ]
-    },
-    "plate_position_mm": [
-      -86.0,
-      45.0,
-      -3.0
     ],
-    "adapter_top_mm": 34.88,
-    "fan_top_mm": 34.88,
     "success": true,
-    "ear_profile_semicircles": [
-      {
-        "center_local_mm": [
-          -34.0,
-          104.0,
-          0.0
-        ],
-        "radius_mm": 6.0,
-        "angle_deg": 180.0
-      },
-      {
-        "center_local_mm": [
-          123.0,
-          104.0,
-          0.0
-        ],
-        "radius_mm": 6.0,
-        "angle_deg": 180.0
-      }
-    ],
-    "case_changes": {
-      "added": {
-        "volume_mm3": 431.62947506542514,
-        "bbox_mm": [
-          -40.0,
-          98.0,
-          -6.000000000000023,
-          129.0,
-          110.0,
-          -3.0
-        ]
-      },
-      "removed": {
-        "volume_mm3": 537.6073766467758,
-        "bbox_mm": [
-          -40.0,
-          98.0,
-          -12.0,
-          129.0,
-          109.0,
-          -9.0
-        ]
-      }
-    },
-    "screw_backside_validation": {
-      "DisplayStopScrew1": {
-        "axis": [
-          0.0,
-          0.0,
-          -1.0
-        ],
-        "seat_z_mm": -3.0,
-        "tip_z_mm": -11.0,
-        "plate_overlap_mm3": 0.0,
-        "rear_driver_envelope_radius_mm": 2.5,
-        "rear_driver_case_overlap_mm3": 0.0,
-        "rear_driver_plate_overlap_mm3": 0.0,
-        "nut_contact_plane_z_mm": -6.0
-      },
-      "DisplayStopScrew2": {
-        "axis": [
-          0.0,
-          0.0,
-          -1.0
-        ],
-        "seat_z_mm": -3.0,
-        "tip_z_mm": -11.0,
-        "plate_overlap_mm3": 0.0,
-        "rear_driver_envelope_radius_mm": 2.5,
-        "rear_driver_case_overlap_mm3": 0.0,
-        "rear_driver_plate_overlap_mm3": 0.0,
-        "nut_contact_plane_z_mm": -6.0
-      }
+    "component_validation": {
+      "components_checked": 72,
+      "all_valid_single_solids": true,
+      "invalid_components": []
     }
   },
-  "saved_file_force_recompute_validation": {
-    "progress": "complete",
-    "audit": {
-      "case_valid": true,
-      "case_solids": 1,
-      "case_volume_mm3": 97050.03112604679,
-      "body_tip": "DisplayEarHolePocket",
-      "invalid_objects": [],
-      "fully_constrained": {
-        "Sketch004": true,
-        "DisplayEarSketch": true,
-        "DisplayEarHoleSketch": true,
-        "Sketch008": true,
-        "Sketch009": true,
-        "Sketch010": true,
-        "Sketch011": true,
-        "AdapterUpperHoleSketch": true
-      },
-      "display_case_overlap_mm3": 0.0,
-      "new_fastener_case_overlap_mm3": {
-        "DisplayStopScrew1": 0.0,
-        "DisplayStopNut1": 0.0,
-        "DisplayStopScrew2": 0.0,
-        "DisplayStopNut2": 0.0
-      },
-      "new_fastener_display_overlap_mm3": {
-        "DisplayStopScrew1": 0.0,
-        "DisplayStopNut1": 0.0,
-        "DisplayStopScrew2": 0.0,
-        "DisplayStopNut2": 0.0
-      },
-      "lcd_body_continuous_insertion_sweep": {
-        "direction": "+Y removal / -Y insertion",
-        "travel_mm": 110,
-        "case_overlap_mm3": 0.0,
-        "screws_and_nuts_removed": true,
-        "fpc_flexibility_validated": false
-      },
-      "stop_validation": {
-        "DisplayStopNut1": {
-          "seated_lcd_overlap_mm3": 0.0,
-          "minimum_lcd_gap_mm": 1.75,
-          "lcd_moved_2mm_outward_overlap_mm3": 1.6598820239201797
-        },
-        "DisplayStopNut2": {
-          "seated_lcd_overlap_mm3": 0.0,
-          "minimum_lcd_gap_mm": 1.75,
-          "lcd_moved_2mm_outward_overlap_mm3": 1.659882023920178
-        }
-      },
-      "opening_radii_mm": [
-        2.0,
-        2.0,
-        2.0,
-        2.0
-      ],
-      "opening_constraints": [
-        {
-          "index": 4,
-          "type": "DistanceY",
-          "value_mm": 89.0,
-          "name": "OpeningHeight"
-        },
-        {
-          "index": 6,
-          "type": "Distance",
-          "value_mm": 3.5,
-          "name": ""
-        },
-        {
-          "index": 8,
-          "type": "Distance",
-          "value_mm": 3.5,
-          "name": ""
-        },
-        {
-          "index": 12,
-          "type": "Radius",
-          "value_mm": 2.0,
-          "name": "OpeningCornerRadius"
-        },
-        {
-          "index": 27,
-          "type": "Distance",
-          "value_mm": 7.0,
-          "name": "RightMargin"
-        }
-      ],
-      "remaining_display_solid_fillet_edges": [
-        "Edge9",
-        "Edge65",
-        "Edge77",
-        "Edge11",
-        "Edge67",
-        "Edge76",
-        "Edge10",
-        "Edge64",
-        "Edge56"
-      ],
-      "active_area_corner_mask_mm2": 0.707451661107358,
-      "active_area_dimensions_mm": [
-        154.21,
-        85.92
-      ],
-      "active_area_corner_mask_accepted_by_user": true,
-      "adapter_hole_centers_mm": {
-        "Sketch008": [
-          [
-            64.35000000000001,
-            83.00000000000001,
-            30.875789708544445
-          ],
-          [
-            19.650000000000006,
-            83.00000000000001,
-            30.875789708544445
-          ]
-        ],
-        "Sketch009": [
-          [
-            64.35000000000001,
-            82.99999999999997,
-            10.675789708544452
-          ],
-          [
-            19.650000000000002,
-            82.99999999999997,
-            10.675789708544452
-          ]
-        ]
-      },
-      "plate_position_mm": [
-        -86.0,
-        45.0,
-        -3.0
-      ],
-      "adapter_top_mm": 34.88000000002315,
-      "fan_top_mm": 34.88,
-      "success": true,
-      "ear_profile_semicircles": [
-        {
-          "center_local_mm": [
-            -34.0,
-            104.0,
-            0.0
-          ],
-          "radius_mm": 6.0,
-          "angle_deg": 180.0
-        },
-        {
-          "center_local_mm": [
-            123.0,
-            104.0,
-            0.0
-          ],
-          "radius_mm": 6.0,
-          "angle_deg": 180.0
-        }
-      ],
-      "screw_backside_validation": {
-        "DisplayStopScrew1": {
-          "axis": [
-            0.0,
-            0.0,
-            -1.0
-          ],
-          "seat_z_mm": -3.0,
-          "tip_z_mm": -11.0,
-          "plate_overlap_mm3": 0.0,
-          "rear_driver_envelope_radius_mm": 2.5,
-          "rear_driver_case_overlap_mm3": 0.0,
-          "rear_driver_plate_overlap_mm3": 0.0,
-          "nut_contact_plane_z_mm": -6.0
-        },
-        "DisplayStopScrew2": {
-          "axis": [
-            0.0,
-            0.0,
-            -1.0
-          ],
-          "seat_z_mm": -3.0,
-          "tip_z_mm": -11.0,
-          "plate_overlap_mm3": 0.0,
-          "rear_driver_envelope_radius_mm": 2.5,
-          "rear_driver_case_overlap_mm3": 0.0,
-          "rear_driver_plate_overlap_mm3": 0.0,
-          "nut_contact_plane_z_mm": -6.0
-        }
-      }
-    },
-    "ear_named_dimensions": {
-      "EarRadius": 6.0
-    },
-    "sketch004_named_dimensions": {
-      "OpeningHeight": 89.0,
-      "OpeningCornerRadius": 2.0,
-      "RightMargin": 7.0
-    },
-    "entire_parameter_table_preserved": true,
-    "new_hole_centers_mm": [
-      [
-        -34.0,
-        104.0,
-        -3.0
-      ],
-      [
-        123.0,
-        104.0,
-        -3.0
-      ]
-    ],
-    "source_fcstd_sha256": "f9049d615c5e36fe34126c38d040673825a80e78a2992c43f855bdd422080282",
+  "saved_file_validation": {
     "archive_valid": true,
-    "object_count": 300,
+    "force_recomputed": true,
+    "object_count": 392,
+    "enclosure_valid": true,
+    "enclosure_solids": 1,
+    "enclosure_volume_mm3": 97005.8357024999,
+    "gimbal_solids_including_mount_screws": 72,
+    "component_validation": {
+      "components_checked": 72,
+      "all_valid_single_solids": true,
+      "invalid_components": []
+    },
+    "invalid_objects": [],
+    "existing_sketches_preserved": {
+      "BaseSketch": true,
+      "WallSketch": true,
+      "RoofSketch": true,
+      "ServiceWindowSketch": true,
+      "MountHolesSketch": true,
+      "PortSupportSketch": true,
+      "FanAccessSketch": true,
+      "Sketch": true,
+      "Sketch001": true,
+      "Sketch002": true,
+      "Sketch003": true,
+      "Sketch004": true,
+      "Sketch005": true,
+      "Sketch008": true,
+      "Sketch009": true,
+      "Sketch010": true,
+      "Sketch011": true,
+      "Sketch012": true,
+      "Sketch013": true,
+      "AdapterUpperHoleSketch": true,
+      "DisplayEarSketch": true,
+      "DisplayEarHoleSketch": true,
+      "Sketch014": true
+    },
+    "existing_enclosure_symmetric_difference_mm3": 0.0,
+    "plate_x_10mm_link_test": {
+      "Gimbal": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "GimbalPart027": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "GimbalMountScrew1": [
+        9.999999999999993,
+        0.0,
+        -3.552713678800501e-15
+      ]
+    },
+    "plate_placement_restored_after_copy_test": true,
     "success": true
   },
   "official_parameter_table": {
@@ -552,41 +396,13 @@
       "ips_cad": "https://files.waveshare.com/upload/7/73/70H-1024600-IPS-CAD.zip"
     }
   },
-  "plate": {
-    "rotation_z_degrees": 90,
-    "position_mm": [
-      -86.0,
-      45.0,
-      -3.0
-    ],
-    "circular_end": "near DC power connector",
-    "position_control": "BasePlate.Placement.Base.x (GUI: Data > Placement > Position > x)",
-    "insertion_position_changed_after_user_requested_parameter_only": false,
-    "position_example": "-86 mm to -76 mm moves 10 mm further inward",
-    "through_slot_has_end_stop": false,
-    "end_hole_centers_mm": [
-      [
-        112.99999992961546,
-        18.200000028986636,
-        -3.0
-      ],
-      [
-        112.99999992961546,
-        71.79999997101328,
-        -3.0
-      ]
-    ],
-    "alignment_residual_mm": [
-      7.611970324645762e-08,
-      7.611973436285536e-08
-    ],
-    "static_overlap_mm3": {
-      "Enclosure": 0.0,
-      "CaseScrews": 0.0,
-      "Display70H": 0.0
-    },
-    "static_check_provenance": "Plate and existing plate hardware are unchanged from 98c9b90. Enclosure changes are confined to Z -12..-9 mm removal and -6..-3 mm addition, outside the plate interior at Z -3..-1 mm. The two reversed display screws and rear driver envelopes were checked directly against the plate; all intersections are zero.",
-    "nominal_vertical_allowance_mm": 0
+  "stl_worktree_preservation": {
+    "file": "nano_case_with_screen.stl",
+    "preexisting_uncommitted_change": true,
+    "sha256_before": "b33e0f85ed7b45baa85a323db3127473a1d91335fde30166f8c03f0ccfb22f15",
+    "sha256_after": "b33e0f85ed7b45baa85a323db3127473a1d91335fde30166f8c03f0ccfb22f15",
+    "included_in_this_commit": false,
+    "tracked_head_sha256": "0df6924c3dbfc77d555e4d363fcd758c33a93dba141bbd1f1799440f3f623fbf"
   },
   "preserved_files": {
     "大底板.DWG": {
@@ -595,10 +411,6 @@
     },
     "大底板.IGS": {
       "sha256": "2ee11bf87d695fbe5243b8a3e16f2bd8d546154cd3d883df51d643ab31ec2322",
-      "unchanged_from": "667ebc6"
-    },
-    "nano_case_with_screen.stl": {
-      "sha256": "0df6924c3dbfc77d555e4d363fcd758c33a93dba141bbd1f1799440f3f623fbf",
       "unchanged_from": "667ebc6"
     },
     "assembly/assembly_sequence.mp4": {
@@ -613,11 +425,11 @@
     "reason": "Old plate direction and adapter height; preserved unchanged, no new animation requested."
   },
   "limitations": [
-    "LCD body insertion sweep is continuous rigid CAD geometry; FPC folding and connected cables were not physically validated.",
-    "The M3 nuts remain inside the LCD slot and provide edge stops with a nominal 1.75 mm gap, not a glass clamp; remove both screw/nut sets before inserting or removing the display.",
-    "The M3x8 screws insert from the display back. The nuts move 0.6 mm toward the back to contact the new ear undersides; their X/Y locations are unchanged.",
-    "Actual fastener dimensions, nut wrench access, printed strength and tolerances require trial assembly. The rear driver check covers a 2.5 mm radius shaft, not the complete handle.",
-    "Bottom plate nominal vertical allowance remains zero: 3 mm slot minus 2 mm plate and 1 mm modeled Nano screw heads. Plate insertion path was not revalidated in this change.",
-    "No STL export, printing or physical assembly acceptance. Existing STL and historical animation are unchanged and stale."
+    "Static pose supplied by the source STEP is retained. Gimbal travel, load capacity, cable routing and physical motion are not validated.",
+    "The original nominal 4 mm mounting holes provide zero nominal diametrical allowance for M4 screws; actual hardware and hole fit require trial assembly.",
+    "The original base plate slot still has zero nominal vertical allowance for the 2 mm plate plus modeled 1 mm Nano screw heads in a 3 mm slot. Full insertion path was not revalidated.",
+    "Changing base plate insertion position moves the gimbal and mount screws together; clearance must be checked again at the new position.",
+    "Pre-existing unsaved Sketch014/Pocket007 were preserved in the FCStd. The user-modified local STL remains unchanged and uncommitted.",
+    "No STL export, new animation, printing or physical assembly acceptance."
   ]
 }
