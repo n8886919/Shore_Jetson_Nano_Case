@@ -1,9 +1,9 @@
 {
-  "verified_at": "2026-11-18T11:26:33.149132+08:00",
+  "verified_at": "2026-11-18T11:51:47.329566+08:00",
   "source_file": "Nano_Case_v05_DRAFT.FCStd",
-  "source_fcstd_sha256": "767764fda1fdf5d8c8524f5cbd8976c8c0537dd2ed2ee148e818b9bcf1e00203",
-  "previous_revision": "28ca4751a0712fcc30cc4c6ca4b19cadfbd0098b",
-  "previous_source_sha256": "530e51a506dacfcc26885772f34ef071078c89a05733aa2faa34090cfd1aadae",
+  "source_fcstd_sha256": "f9049d615c5e36fe34126c38d040673825a80e78a2992c43f855bdd422080282",
+  "previous_revision": "98c9b90a5c176d94a39e6f3e0cc62a70fb6ea306",
+  "previous_source_sha256": "767764fda1fdf5d8c8524f5cbd8976c8c0537dd2ed2ee148e818b9bcf1e00203",
   "assembly_document": "original Reference group, no separate assembly FCStd",
   "stl_exported": false,
   "animation_created_or_updated": false,
@@ -36,28 +36,39 @@
     "radius_driving_constraint": "Sketch004.Constraints.OpeningCornerRadius",
     "active_area_corner_masking_accepted_by_user": true
   },
+  "opening_preserved_from_revision": "98c9b90",
   "display_retention": {
+    "ear_side": "display back (+Z)",
     "ear_width_mm": 12,
-    "ear_extension_from_case_mm": 7,
+    "ear_semicircle_radius_mm": 6,
+    "ear_extension_from_case_mm": 8,
     "ear_thickness_mm": 3,
-    "ear_outer_corner_radius_mm": 2,
-    "hole_diameter_mm": 3.4,
-    "hole_centers_mm": [
+    "ear_z_range_mm": [
+      -6,
+      -3
+    ],
+    "ear_hole_diameter_mm": 3.4,
+    "hole_axes_xy_mm": [
       [
         -34,
-        104,
-        -9
+        104
       ],
       [
         123,
-        104,
-        -9
+        104
       ]
     ],
-    "screws": "2 x M3x8 nominal",
-    "nuts": "2 x M3 AF5.5, thickness2.4",
-    "nominal_lcd_to_nut_stop_gap_mm": 1.75,
-    "installation": "Insert display from +Y with both screws and nuts removed; fit the screws and nuts afterwards."
+    "screw_insertion_direction": "-Z from the display back",
+    "screw_seat_z_mm": -3,
+    "screw_tip_z_mm": -11,
+    "screw_nominal_length_mm": 8,
+    "nut_z_range_mm": [
+      -8.4,
+      -6
+    ],
+    "nut_adjustment_z_mm": 0.6,
+    "nut_stop_location": "inside original LCD insertion slot",
+    "nut_to_lcd_gap_mm": 1.75
   },
   "preservation": {
     "other_sketches_unchanged": {
@@ -72,6 +83,7 @@
       "Sketch001": true,
       "Sketch002": true,
       "Sketch003": true,
+      "Sketch004": true,
       "Sketch005": true,
       "Sketch008": true,
       "Sketch009": true,
@@ -81,15 +93,16 @@
       "Sketch013": true,
       "AdapterUpperHoleSketch": true
     },
-    "existing_reference_parts_unchanged": true,
+    "existing_reference_parts_unchanged_except_four_display_fasteners": true,
     "existing_reference_part_count": 204,
-    "upstream_Pad003_symmetric_difference_mm3": 0.0,
+    "upstream_AdapterUpperHolePocket_symmetric_difference_mm3": 0.0,
+    "hole_geometry_and_constraints_preserved": true,
     "entire_parameter_table_preserved": true
   },
   "geometry_validation": {
     "case_valid": true,
     "case_solids": 1,
-    "case_volume_mm3": 97156.00902763134,
+    "case_volume_mm3": 97050.03112604679,
     "body_tip": "DisplayEarHolePocket",
     "invalid_objects": [],
     "fully_constrained": {
@@ -101,30 +114,6 @@
       "Sketch010": true,
       "Sketch011": true,
       "AdapterUpperHoleSketch": true
-    },
-    "case_changes": {
-      "added": {
-        "volume_mm3": 1544.0710677492102,
-        "bbox_mm": [
-          -40.0,
-          3.9999999999999973,
-          -12.0,
-          129.0,
-          109.0,
-          -9.0
-        ]
-      },
-      "removed": {
-        "volume_mm3": 152.31324701591075,
-        "bbox_mm": [
-          -33.82287565553232,
-          94.0,
-          -11.0,
-          119.3228756555323,
-          94.50000000000001,
-          -9.000000000000021
-        ]
-      }
     },
     "display_case_overlap_mm3": 0.0,
     "new_fastener_case_overlap_mm3": {
@@ -150,12 +139,12 @@
       "DisplayStopNut1": {
         "seated_lcd_overlap_mm3": 0.0,
         "minimum_lcd_gap_mm": 1.75,
-        "lcd_moved_2mm_outward_overlap_mm3": 1.9918584287042096
+        "lcd_moved_2mm_outward_overlap_mm3": 1.6598820239201797
       },
       "DisplayStopNut2": {
         "seated_lcd_overlap_mm3": 0.0,
         "minimum_lcd_gap_mm": 1.75,
-        "lcd_moved_2mm_outward_overlap_mm3": 1.9918584287042056
+        "lcd_moved_2mm_outward_overlap_mm3": 1.659882023920178
       }
     },
     "opening_radii_mm": [
@@ -207,7 +196,7 @@
       "Edge64",
       "Edge56"
     ],
-    "active_area_corner_mask_mm2": 0.7074516611073548,
+    "active_area_corner_mask_mm2": 0.7074516611073542,
     "active_area_dimensions_mm": [
       154.21,
       85.92
@@ -246,14 +235,88 @@
     ],
     "adapter_top_mm": 34.88,
     "fan_top_mm": 34.88,
-    "success": true
+    "success": true,
+    "ear_profile_semicircles": [
+      {
+        "center_local_mm": [
+          -34.0,
+          104.0,
+          0.0
+        ],
+        "radius_mm": 6.0,
+        "angle_deg": 180.0
+      },
+      {
+        "center_local_mm": [
+          123.0,
+          104.0,
+          0.0
+        ],
+        "radius_mm": 6.0,
+        "angle_deg": 180.0
+      }
+    ],
+    "case_changes": {
+      "added": {
+        "volume_mm3": 431.62947506542514,
+        "bbox_mm": [
+          -40.0,
+          98.0,
+          -6.000000000000023,
+          129.0,
+          110.0,
+          -3.0
+        ]
+      },
+      "removed": {
+        "volume_mm3": 537.6073766467758,
+        "bbox_mm": [
+          -40.0,
+          98.0,
+          -12.0,
+          129.0,
+          109.0,
+          -9.0
+        ]
+      }
+    },
+    "screw_backside_validation": {
+      "DisplayStopScrew1": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "seat_z_mm": -3.0,
+        "tip_z_mm": -11.0,
+        "plate_overlap_mm3": 0.0,
+        "rear_driver_envelope_radius_mm": 2.5,
+        "rear_driver_case_overlap_mm3": 0.0,
+        "rear_driver_plate_overlap_mm3": 0.0,
+        "nut_contact_plane_z_mm": -6.0
+      },
+      "DisplayStopScrew2": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "seat_z_mm": -3.0,
+        "tip_z_mm": -11.0,
+        "plate_overlap_mm3": 0.0,
+        "rear_driver_envelope_radius_mm": 2.5,
+        "rear_driver_case_overlap_mm3": 0.0,
+        "rear_driver_plate_overlap_mm3": 0.0,
+        "nut_contact_plane_z_mm": -6.0
+      }
+    }
   },
   "saved_file_force_recompute_validation": {
     "progress": "complete",
     "audit": {
       "case_valid": true,
       "case_solids": 1,
-      "case_volume_mm3": 97156.00902763133,
+      "case_volume_mm3": 97050.03112604679,
       "body_tip": "DisplayEarHolePocket",
       "invalid_objects": [],
       "fully_constrained": {
@@ -290,12 +353,12 @@
         "DisplayStopNut1": {
           "seated_lcd_overlap_mm3": 0.0,
           "minimum_lcd_gap_mm": 1.75,
-          "lcd_moved_2mm_outward_overlap_mm3": 1.9918584287042096
+          "lcd_moved_2mm_outward_overlap_mm3": 1.6598820239201797
         },
         "DisplayStopNut2": {
           "seated_lcd_overlap_mm3": 0.0,
           "minimum_lcd_gap_mm": 1.75,
-          "lcd_moved_2mm_outward_overlap_mm3": 1.9918584287042056
+          "lcd_moved_2mm_outward_overlap_mm3": 1.659882023920178
         }
       },
       "opening_radii_mm": [
@@ -347,7 +410,7 @@
         "Edge64",
         "Edge56"
       ],
-      "active_area_corner_mask_mm2": 0.7074516611073588,
+      "active_area_corner_mask_mm2": 0.707451661107358,
       "active_area_dimensions_mm": [
         154.21,
         85.92
@@ -386,7 +449,60 @@
       ],
       "adapter_top_mm": 34.88000000002315,
       "fan_top_mm": 34.88,
-      "success": true
+      "success": true,
+      "ear_profile_semicircles": [
+        {
+          "center_local_mm": [
+            -34.0,
+            104.0,
+            0.0
+          ],
+          "radius_mm": 6.0,
+          "angle_deg": 180.0
+        },
+        {
+          "center_local_mm": [
+            123.0,
+            104.0,
+            0.0
+          ],
+          "radius_mm": 6.0,
+          "angle_deg": 180.0
+        }
+      ],
+      "screw_backside_validation": {
+        "DisplayStopScrew1": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "seat_z_mm": -3.0,
+          "tip_z_mm": -11.0,
+          "plate_overlap_mm3": 0.0,
+          "rear_driver_envelope_radius_mm": 2.5,
+          "rear_driver_case_overlap_mm3": 0.0,
+          "rear_driver_plate_overlap_mm3": 0.0,
+          "nut_contact_plane_z_mm": -6.0
+        },
+        "DisplayStopScrew2": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "seat_z_mm": -3.0,
+          "tip_z_mm": -11.0,
+          "plate_overlap_mm3": 0.0,
+          "rear_driver_envelope_radius_mm": 2.5,
+          "rear_driver_case_overlap_mm3": 0.0,
+          "rear_driver_plate_overlap_mm3": 0.0,
+          "nut_contact_plane_z_mm": -6.0
+        }
+      }
+    },
+    "ear_named_dimensions": {
+      "EarRadius": 6.0
     },
     "sketch004_named_dimensions": {
       "OpeningHeight": 89.0,
@@ -398,15 +514,15 @@
       [
         -34.0,
         104.0,
-        -9.0
+        -3.0
       ],
       [
         123.0,
         104.0,
-        -9.0
+        -3.0
       ]
     ],
-    "source_fcstd_sha256": "767764fda1fdf5d8c8524f5cbd8976c8c0537dd2ed2ee148e818b9bcf1e00203",
+    "source_fcstd_sha256": "f9049d615c5e36fe34126c38d040673825a80e78a2992c43f855bdd422080282",
     "archive_valid": true,
     "object_count": 300,
     "success": true
@@ -469,7 +585,7 @@
       "CaseScrews": 0.0,
       "Display70H": 0.0
     },
-    "static_check_provenance": "Carried from previous revision 28ca475: the plate and existing hardware are unchanged. All enclosure geometry changes in this revision are confined to Z -12..-9 mm, separated from the plate at Z -3..-1 mm. New display retention hardware has maximum Z -4 mm, also below the plate.",
+    "static_check_provenance": "Plate and existing plate hardware are unchanged from 98c9b90. Enclosure changes are confined to Z -12..-9 mm removal and -6..-3 mm addition, outside the plate interior at Z -3..-1 mm. The two reversed display screws and rear driver envelopes were checked directly against the plate; all intersections are zero.",
     "nominal_vertical_allowance_mm": 0
   },
   "preserved_files": {
@@ -498,8 +614,9 @@
   },
   "limitations": [
     "LCD body insertion sweep is continuous rigid CAD geometry; FPC folding and connected cables were not physically validated.",
-    "The M3 nuts provide edge stops with a nominal 1.75 mm gap, not a glass clamp; remove both screw/nut sets before inserting or removing the display.",
-    "Actual fastener dimensions, thin-wrench access at the nuts, printed strength and tolerances require trial assembly.",
+    "The M3 nuts remain inside the LCD slot and provide edge stops with a nominal 1.75 mm gap, not a glass clamp; remove both screw/nut sets before inserting or removing the display.",
+    "The M3x8 screws insert from the display back. The nuts move 0.6 mm toward the back to contact the new ear undersides; their X/Y locations are unchanged.",
+    "Actual fastener dimensions, nut wrench access, printed strength and tolerances require trial assembly. The rear driver check covers a 2.5 mm radius shaft, not the complete handle.",
     "Bottom plate nominal vertical allowance remains zero: 3 mm slot minus 2 mm plate and 1 mm modeled Nano screw heads. Plate insertion path was not revalidated in this change.",
     "No STL export, printing or physical assembly acceptance. Existing STL and historical animation are unchanged and stale."
   ]
