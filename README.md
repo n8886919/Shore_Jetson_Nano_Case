@@ -6,6 +6,8 @@ Shore Jetson 的 Jetson Nano、Waveshare 70H-1024600 IPS 無觸控顯示器、�
 
 直接開啟 `Nano_Case_v05_DRAFT.FCStd`，沿用原有的 **「裝配參考 — 不要匯出 STL」** 群組查看組裝；沒有另一份獨立組裝 FCStd。
 
+**跨電腦接續 Blender 工作：** 請先讀 [渲染交接說明](docs/blender-handoff.md)、[60 秒宣傳片需求](docs/promo-brief.md)、[免費素材候選](docs/promo-assets.md) 與 [Agent 工作規則](AGENTS.md)。目標是一分鐘動畫：精美工程組裝 → 海邊接合腳架／電源 → 模擬衝浪者與 App 追蹤子母畫面。組裝段螢幕在上、Nano 在下；可走卡通風格，但不要方塊人。大底板為黑色磨砂金屬，3D 列印外殼為奶白色；原 FCStd 保持不變。
+
 - `Enclosure`：唯一列印件；顯示開口在草圖內做 R2，入口背面有兩個半圓止擋耳。
 - `Reference`：原有 Nano，以及顯示器、轉接板、大底板與名義五金。
 - `Hardware/AdapterFasteners`：4 顆 M2.5×6、4 顆螺母、4 片 0.6 mm 墊片，實際規格待核對。
@@ -89,7 +91,8 @@ Shore Jetson 的 Jetson Nano、Waveshare 70H-1024600 IPS 無觸控顯示器、�
 - `98c9b90`：縮小 Sketch004 開口、將內側 R2 移入草圖，加入可拆 M3 止擋雙耳與五金。
 - `fb23d0a`：雙耳移到顯示器背面並改成 R6 半圓，M3×8 由背面穿入，螺母保留在插口內。
 - 本版：保留目前開啟模型，加入完整雲台、四顆 M4×10 與底板位置連動，沿用原 FCStd。
+- `b936dbb`：保存使用者先前修改的 `nano_case_with_screen.stl`，沒有重新匯出或改動 FCStd。
 
-本次不製作動畫。[先前動畫](assembly/assembly_sequence.mp4) 僅保留作為 `667ebc6` 的歷史資料，方向與高度已不適用目前版本。
+雲台 CAD 更新時沒有製作新動畫；2026-11-19 另提出的 60 秒 Blender 宣傳片尚待實作。[先前動畫](assembly/assembly_sequence.mp4) 僅保留作為 `667ebc6` 的歷史資料，方向與高度已不適用目前版本。
 
 FCBak、自動備份與 STEP 不納入 Git；FCStd 視為二進位檔案，避免文字合併。準備列印前先處理已知裝配問題，再從確認過的 `Enclosure` 匯出 STL。

@@ -1,0 +1,13 @@
+請在這個 Shore_Jetson_Nano_Case repo 接續 Blender 宣傳片製作。先確認 git status，讀 AGENTS.md、docs/blender-handoff.md、docs/promo-brief.md、docs/promo-assets.md 及 render/references/app/README.md。
+
+目標是 60 秒影片：先是精美工程組裝，接著海邊環境出現、設備接上攝影腳架與露營電源，最後加入模擬 surfer 及沿用我們 Shore Jetson App 的辨識子母畫面。請主動優化分鏡、節奏、鏡頭和轉場，保留敘事順序與一分鐘總長。
+
+組裝段必須螢幕在上、Jetson Nano 在下；只在 Blender 翻轉整組呈現，不改原 FCStd。大底板是黑色磨砂金屬，3D 列印外殼是奶白色。可走卡通風格，但不要方塊人。
+
+監視器指定使用 Remastered Cameras by bunny man：https://sketchfab.com/3d-models/remastered-cameras-ea93654b1d3a4017a129e76f90df9c47 。這個來源已選定，尚未下載；其 CC BY 4.0 署名要求已寫入素材文件。其餘腳架、電源、人物與環境請和我一起找免費素材；選材期間可持續準備腳本與構圖。
+
+我有 Google AI Plus，可用既有方案的生圖／生影片資源輔助環境、衝浪或轉場。先核對實際可用功能及餘額，按明確分鏡使用，不買額度或升級方案。工程幾何及 App UI 保持可控，不讓生成工具改壞產品和文字。
+
+保護原圖與現有 STL：依交接文件核對前後雜湊，不覆寫、不另匯出 STL。用 Python 建立可重建的 Blender 流程，先做關鍵畫面及低解析 animatic，再完成正式影片。App 參考圖是真實介面的離線截圖，不是可執行 App 或實測辨識影像；模擬人物、影格、辨識框與狀態要同步。
+
+完成後提供場景、腳本、設定、素材來源／署名、預覽與 60 秒 MP4，實際檢查出圖與整支影片，回報執行命令、原圖保存、驗證結果和未確認事項。這個 repo 的原有歷史動畫已過時，不當作本版裝配基準。
